@@ -1,0 +1,48 @@
+
+body, html {
+  margin:0;
+  padding:0;
+  height:100%;
+  font-family: Arial, sans-serif;
+}
+
+#map {
+  height: calc(100% - 50px);
+}
+
+#topbar {
+  height:50px;
+  background:#1e1e1e;
+  color:white;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:0 15px;
+}
+
+#auth {
+  position:absolute;
+  top:100px;
+  left:50%;
+  transform:translateX(-50%);
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+#sidebar {
+  position:absolute;
+  right:0;
+  top:50px;
+  width:250px;
+  background:#f0f0f0;
+  padding:10px;
+  height:calc(100% - 50px);
+  overflow:auto;
+}
+
+.dark {
+  background:#121212;
+  color:white;
+}
